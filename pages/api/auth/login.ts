@@ -8,7 +8,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   const { email, password } = req.body
   if (!email || !password) return res.status(400).json({ error: 'Missing fields' })
 
-  const admin = readAdmin()
+  const admin = await readAdmin()
   const user = admin.users.find((u: any) => u.email === email)
   if (!user) return res.status(401).json({ error: 'Invalid credentials' })
 
