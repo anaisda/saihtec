@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;1,9..40,200&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ul, ol { list-style: none; padding: 0; margin: 0; }
+a { text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
+img { display: block; max-width: 100%; }
+input, textarea, select { font-family: inherit; }
+
+:root {
+  --navy:     #1C3D4A;
+  --navy-mid: #2A5568;
+  --navy-dim: #4A7080;
+  --ice:      #D6E4E8;
+  --ice-lt:   #EEF5F7;
+  --cream:    #F5F0E8;
+  --linen:    #EBE7DF;
+  --stone:    #8AABB5;
+  --border:   rgba(28,61,74,0.08);
+}
+
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  background: var(--cream);
+  color: var(--navy);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection { background: var(--navy); color: var(--cream); }
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: var(--linen); }
+::-webkit-scrollbar-thumb { background: var(--stone); border-radius: 2px; transition: background 0.3s; }
+::-webkit-scrollbar-thumb:hover { background: var(--navy-dim); }
+
+.serif { font-family: 'Cormorant', serif; }
+
+/* ── Noise grain overlay ── */
+body::after {
+  content: '';
+  position: fixed; inset: 0; z-index: 9998;
+  pointer-events: none; opacity: 0.022;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 256px;
+}
+
+/* ── Link animated underline ── */
+a.animated-link {
+  position: relative;
+  display: inline-block;
+}
+a.animated-link::after {
+  content: '';
+  position: absolute; bottom: -2px; left: 0; right: 0;
+  height: 1px; background: currentColor;
+  transform: scaleX(0); transform-origin: right;
+  transition: transform 0.4s cubic-bezier(0.16,1,0.3,1);
+}
+a.animated-link:hover::after {
+  transform: scaleX(1); transform-origin: left;
+}
+
+/* ── Section reveal ── */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.9s cubic-bezier(0.16,1,0.3,1), transform 0.9s cubic-bezier(0.16,1,0.3,1);
+}
+[data-reveal].visible {
+  opacity: 1; transform: none;
+}

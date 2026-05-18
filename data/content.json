@@ -1,0 +1,495 @@
+{
+  "settings": {
+    "heroTagline": "Stockholm, Sweden \u00b7 GMP Certified \u00b7 ISCT Member",
+    "heroTitle": "The future of cellular therapy starts here.",
+    "heroSubtitle": "SAIHTEC AB develops and manufactures clinical-grade mesenchymal stromal cells, driving the translation of cell therapy from research to patients worldwide.",
+    "heroVideoUrl": "https://videos.pexels.com/video-files/8325997/8325997-hd_1920_1080_30fps.mp4",
+    "stats": [
+      {
+        "number": "20",
+        "suffix": "+",
+        "label": "Years of MSC Research"
+      },
+      {
+        "number": "57",
+        "suffix": "",
+        "label": "Peer-Reviewed Publications"
+      },
+      {
+        "number": "3",
+        "suffix": "",
+        "label": "Active Clinical Programmes"
+      },
+      {
+        "number": "GMP",
+        "suffix": "",
+        "label": "Certified Manufacturing"
+      }
+    ],
+    "seoTitle": "SAIHTEC AB \u2014 Advanced Stem Cell Therapeutics \u00b7 Stockholm, Sweden",
+    "seoDescription": "SAIHTEC AB develops and manufactures clinical-grade mesenchymal stromal cells. Founded in Sweden. GMP certified. Driving clinical translation worldwide.",
+    "contactEmail": "nadir.kadri@ki.se"
+  },
+  "about": {
+    "tagline": "Who we are",
+    "title": "Science-led. Patient-driven. Built in <em>Sweden</em>.",
+    "highlightQuote": "Our purpose is to improve lives through safe and effective cell therapy \u2014 and to drive its clinical translation worldwide.",
+    "body": "SAIHTEC AB is a Swedish biotechnology company founded by Dr. Nadir Kadri, an immunologist and stem cell researcher with over 20 years of experience at Karolinska Institutet, Stockholm. The company is built on two decades of peer-reviewed science and multiple investigator-initiated clinical trials, translating mesenchymal stromal cell (MSC) therapy from the laboratory to the clinic.",
+    "vision": "To improve lives through safe and effective cell therapy.",
+    "mission": "To drive clinical translation of cell therapies worldwide.",
+    "certifications": [
+      "GMP Certified Manufacturing \u2014 Sweden",
+      "EU ATMP Regulatory Framework",
+      "ISCT MSC Committee Member 2025\u20132028",
+      "57 Peer-Reviewed Publications"
+    ]
+  },
+  "technology": [
+    {
+      "id": "t1",
+      "order": 1,
+      "number": "01",
+      "title": "MSC Isolation & Expansion",
+      "description": "Bone marrow-derived mesenchymal stromal cells isolated and expanded under rigorously controlled, serum-free conditions to ensure consistency, purity and potency across every batch."
+    },
+    {
+      "id": "t2",
+      "order": 2,
+      "number": "02",
+      "title": "GMP Manufacturing",
+      "description": "End-to-end production of clinical-grade cell therapy products under EU Good Manufacturing Practice guidelines, ensuring every product meets the regulatory standards required for human use."
+    },
+    {
+      "id": "t3",
+      "order": 3,
+      "number": "03",
+      "title": "Quality Control & Release",
+      "description": "Comprehensive release testing \u2014 sterility, viability, immunophenotyping and functional potency assays \u2014 performed before any product leaves our facility."
+    },
+    {
+      "id": "t4",
+      "order": 4,
+      "number": "04",
+      "title": "Clinical Translation",
+      "description": "Direct collaboration with academic medical centres and clinical investigators to design and execute Phase I and Phase II trials, from protocol development to regulatory submission."
+    },
+    {
+      "id": "t5",
+      "order": 5,
+      "number": "05",
+      "title": "Regulatory Affairs",
+      "description": "Expert navigation of EU ATMP classification, EMA submissions and CMC documentation, underpinned by direct experience as principal investigator on multiple approved clinical trials."
+    },
+    {
+      "id": "t6",
+      "order": 6,
+      "number": "06",
+      "title": "Cryopreservation & Logistics",
+      "description": "Validated cryopreservation protocols and temperature-controlled logistics ensure cell viability and potency are maintained throughout distribution to clinical sites."
+    }
+  ],
+  "pipeline": [
+    {
+      "id": "cl1",
+      "order": 1,
+      "name": "MSC in Chronic GvHD",
+      "subtitle": "Bone Marrow MSC",
+      "phase": "Phase II",
+      "phasePercent": 75,
+      "indication": "Chronic Graft-versus-Host Disease",
+      "status": "Active"
+    },
+    {
+      "id": "cl2",
+      "order": 2,
+      "name": "MSC in Progressive MS",
+      "subtitle": "Bone Marrow MSC",
+      "phase": "Phase I",
+      "phasePercent": 40,
+      "indication": "Progressive Multiple Sclerosis",
+      "status": "Completed"
+    },
+    {
+      "id": "cl3",
+      "order": 3,
+      "name": "MSC in Vocal Fold Scarring",
+      "subtitle": "Local MSC Administration",
+      "phase": "Phase I/IIa",
+      "phasePercent": 60,
+      "indication": "Vocal Fold Scarring & Dysphonia",
+      "status": "Active"
+    }
+  ],
+  "team": [
+    {
+      "id": "m1",
+      "order": 1,
+      "name": "Dr. Nadir Kadri",
+      "initials": "NK",
+      "title": "PhD, VMD \u2014 Founder & CEO",
+      "bio": "Immunologist and stem cell researcher. Assistant Professor at Karolinska Institutet. Elected member of the ISCT MSC Committee (2025\u20132028). Principal Investigator on multiple Phase I/II clinical trials. 57 peer-reviewed publications. ORCID: 0000-0003-2623-4094.",
+      "linkedinUrl": "",
+      "color": "#1C3D4A"
+    }
+  ],
+  "publications": [
+    {
+      "id": "pub1",
+      "year": "2026",
+      "title": "An open phase I/IIa study evaluating safety, patient-reported outcomes and voice function after surgery, local administration of mesenchymal stromal cells and voice training in patients with vocal fold scarring and dysphonia",
+      "authors": "Bergstr\u00f6m B\u00f6rlin E, Nygren U, S\u00f6dersten M, Granqvist S, Kadri N, Rasmusson Duprez I, Le Blanc K, Herteg\u00e5rd S.",
+      "journal": "Stem Cell Research & Therapy. 2026 Apr 19;17(1):146",
+      "url": "https://doi.org/10.1186/s13287-026-05022-4",
+      "urlType": "DOI"
+    },
+    {
+      "id": "pub2",
+      "year": "2026",
+      "title": "Fate and function of exogenously administered mesenchymal stromal cells: current insights and future directions",
+      "authors": "Shokoohmand A, Patel NM, Braid L, Dominici M, Kadri N, Le Blanc K, et al.",
+      "journal": "Cytotherapy, 2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41420629",
+      "urlType": "PubMed"
+    },
+    {
+      "id": "pub3",
+      "year": "2025",
+      "title": "ISCT MSC committee statement on the US FDA approval of allogenic bone-marrow mesenchymal stromal cells",
+      "authors": "Le Blanc K, Dazzi F, English K, Kadri N, Krampera M, et al.",
+      "journal": "Cytotherapy, 2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39864015",
+      "urlType": "PubMed"
+    },
+    {
+      "id": "pub4",
+      "year": "2023",
+      "title": "Current perspectives on mesenchymal stromal cell therapy for graft versus host disease",
+      "authors": "Kadri N, Amu S, Iacobaeus E, Boberg E, Le Blanc K.",
+      "journal": "Cellular and Molecular Immunology, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37165014",
+      "urlType": "PubMed"
+    },
+    {
+      "id": "pub5",
+      "year": "2020",
+      "title": "Treatment of chronic GvHD with mesenchymal stromal cells induces durable responses: A phase II study",
+      "authors": "Boberg E, von Bahr L, Afram G, Lindstr\u00f6m C, Ljungman P, Kadri N, Le Blanc K.",
+      "journal": "Stem Cells Translational Medicine. 2020;9(10):1190\u20131202",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32573983",
+      "urlType": "PubMed"
+    },
+    {
+      "id": "pub6",
+      "year": "2019",
+      "title": "Short and Long Term Clinical and Immunologic Follow up after Bone Marrow Mesenchymal Stromal Cell Therapy in Progressive Multiple Sclerosis \u2014 A Phase I Study",
+      "authors": "Iacobaeus E, Kadri N, Lefsihane K, Boberg E, Gavin C, T\u00f6rnqvist Andr\u00e9n A, Lilja A, Brundin L, Blanc KL.",
+      "journal": "Journal of Clinical Medicine. 2019;8(12):2102",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31810187",
+      "urlType": "PubMed"
+    },
+    {
+      "id": "pub7",
+      "year": "2019",
+      "title": "The Complement System Is Essential for the Phagocytosis of Mesenchymal Stromal Cells by Monocytes",
+      "authors": "Gavin C, Meinke S, Heldring N, Le Blanc K, Kadri N.",
+      "journal": "Frontiers in Immunology, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31616424",
+      "urlType": "PubMed"
+    }
+  ],
+  "news": [
+    {
+      "id": "n1",
+      "title": "SAIHTEC AB announces strategic partnership with Saidal Group",
+      "slug": "saihtec-saidal-partnership",
+      "date": "2024-11-15",
+      "category": "Partnership",
+      "excerpt": "SAIHTEC AB has entered into a strategic collaboration with Saidal Group, Algeria's leading pharmaceutical company, to advance access to cell therapy across North Africa and the MENA region.",
+      "body": "SAIHTEC AB has entered into a strategic collaboration with Saidal Group, Algeria's leading pharmaceutical company, to advance access to cell therapy across North Africa and the MENA region. This partnership marks a significant step in SAIHTEC's mission to drive the clinical translation of cell therapies worldwide.",
+      "coverImage": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=900"
+    },
+    {
+      "id": "n2",
+      "title": "Phase I/IIa trial results published in Stem Cell Research & Therapy",
+      "slug": "vocal-fold-trial-publication-2026",
+      "date": "2026-04-19",
+      "category": "Clinical Trial",
+      "excerpt": "New peer-reviewed publication reports safety and patient outcomes from the Phase I/IIa study evaluating local MSC administration in patients with vocal fold scarring and dysphonia.",
+      "body": "Our latest clinical trial results have been published in Stem Cell Research & Therapy. The open Phase I/IIa study evaluated safety, patient-reported outcomes and voice function after surgery and local administration of mesenchymal stromal cells combined with voice training in patients with vocal fold scarring and dysphonia.",
+      "coverImage": "https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&w=900"
+    },
+    {
+      "id": "n3",
+      "title": "Dr. Nadir Kadri elected to ISCT MSC Committee 2025\u20132028",
+      "slug": "isct-committee-election-2025",
+      "date": "2025-01-10",
+      "category": "Company News",
+      "excerpt": "SAIHTEC founder Dr. Nadir Kadri has been elected as one of 14 global experts to serve on the International Society for Cell & Gene Therapy MSC Committee for the 2025\u20132028 term.",
+      "body": "We are proud to announce that Dr. Nadir Kadri has been elected to serve on the ISCT MSC Committee for the 2025\u20132028 term. This international committee of 14 experts shapes global standards and guidance for mesenchymal stromal cell therapy.",
+      "coverImage": "https://images.pexels.com/photos/3786215/pexels-photo-3786215.jpeg?auto=compress&cs=tinysrgb&w=900"
+    },
+    {
+      "id": "n4",
+      "title": "ISCT MSC Committee statement on FDA approval of allogenic bone-marrow MSCs",
+      "slug": "isct-fda-approval-statement-2025",
+      "date": "2025-03-05",
+      "category": "Publication",
+      "excerpt": "Co-authored statement by the ISCT MSC Committee published in Cytotherapy, addressing the US FDA approval of allogenic bone-marrow mesenchymal stromal cells and its implications for the field.",
+      "body": "The ISCT MSC Committee, of which Dr. Kadri is an elected member, has published a formal statement in the journal Cytotherapy regarding the US FDA approval of allogenic bone-marrow mesenchymal stromal cells. The statement provides guidance and commentary for the global cell therapy community.",
+      "coverImage": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=900"
+    }
+  ],
+  "faq": {
+    "tagline": "Frequently Asked",
+    "items": [
+      {
+        "id": "f1",
+        "q": "What does SAIHTEC AB do?",
+        "a": "SAIHTEC AB is a Swedish biotechnology company that develops and manufactures clinical-grade mesenchymal stromal cells (MSCs) for use in clinical research and therapeutic programmes. We combine GMP-certified manufacturing with deep scientific expertise to bridge the gap between research and patient care."
+      },
+      {
+        "id": "f2",
+        "q": "How can I collaborate with SAIHTEC?",
+        "a": "We welcome partnerships with academic institutions, clinical investigators, hospitals and industry partners. Please reach out via our contact form to discuss collaboration opportunities."
+      },
+      {
+        "id": "f3",
+        "q": "What clinical areas are you working in?",
+        "a": "Our investigator-initiated clinical trials have focused on Graft-versus-Host Disease (GvHD), Progressive Multiple Sclerosis, and vocal fold disorders. We are open to exploring new therapeutic areas where MSC biology offers clinical potential."
+      },
+      {
+        "id": "f4",
+        "q": "Are your manufacturing processes GMP certified?",
+        "a": "Yes. Our manufacturing follows EU Good Manufacturing Practice (GMP) guidelines under the ATMP regulatory framework, ensuring every product meets the standards required for clinical use in human subjects."
+      },
+      {
+        "id": "f5",
+        "q": "How do I contact SAIHTEC for investor inquiries?",
+        "a": "Please use the contact form on this website and select 'Investor Relations' as the inquiry type. We will respond within two business days."
+      }
+    ]
+  },
+  "media": {
+    "tagline": "Knowledge & Media",
+    "title": "One place for all our",
+    "titleAccent": "scientific output",
+    "subtitle": "Publications, conference talks, press releases and media coverage \u2014 all in one place.",
+    "items": [
+      {
+        "id": "mi1",
+        "type": "Publication",
+        "title": "An open phase I/IIa study \u2014 MSC local administration in vocal fold scarring and dysphonia",
+        "authors": "Bergstr\u00f6m B\u00f6rlin E, Nygren U, S\u00f6dersten M, Kadri N, Le Blanc K, Herteg\u00e5rd S.",
+        "venue": "Stem Cell Research & Therapy, 2026",
+        "year": "2026",
+        "url": "https://doi.org/10.1186/s13287-026-05022-4",
+        "tag": "Clinical Trial"
+      },
+      {
+        "id": "mi2",
+        "type": "Publication",
+        "title": "Treatment of chronic GvHD with mesenchymal stromal cells induces durable responses: Phase II study",
+        "authors": "Boberg E, von Bahr L, Afram G, Ljungman P, Kadri N, Le Blanc K.",
+        "venue": "Stem Cells Translational Medicine, 2020",
+        "year": "2020",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32573983",
+        "tag": "Clinical Trial"
+      },
+      {
+        "id": "mi3",
+        "type": "Publication",
+        "title": "MSC therapy in Progressive Multiple Sclerosis \u2014 Phase I study: short and long term follow up",
+        "authors": "Iacobaeus E, Kadri N, Lefsihane K, Boberg E, Blanc KL.",
+        "venue": "Journal of Clinical Medicine, 2019",
+        "year": "2019",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31810187",
+        "tag": "Clinical Trial"
+      },
+      {
+        "id": "mi4",
+        "type": "Publication",
+        "title": "ISCT MSC committee statement on US FDA approval of allogenic bone-marrow mesenchymal stromal cells",
+        "authors": "Le Blanc K, Kadri N, Krampera M, et al.",
+        "venue": "Cytotherapy, 2025",
+        "year": "2025",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39864015",
+        "tag": "Statement"
+      },
+      {
+        "id": "mi5",
+        "type": "Talk",
+        "title": "Scaling MSC production: from research grade to GMP",
+        "authors": "Nadir Kadri",
+        "venue": "ISCT Annual Meeting",
+        "year": "2024",
+        "url": "#",
+        "tag": "Conference"
+      },
+      {
+        "id": "mi6",
+        "type": "Press Release",
+        "title": "SAIHTEC AB announces strategic partnership with Saidal Group",
+        "authors": "SAIHTEC Communications",
+        "venue": "Stockholm, Sweden",
+        "year": "2024",
+        "url": "#",
+        "tag": "Partnership"
+      }
+    ]
+  },
+  "events": {
+    "tagline": "Events & Gallery",
+    "title": "Where science",
+    "titleAccent": "meets the world",
+    "subtitle": "Conferences, partnerships and milestones \u2014 captured.",
+    "featuredEvent": {
+      "title": "SAIHTEC \u00d7 Saidal Group Partnership",
+      "date": "2024",
+      "location": "Algeria",
+      "description": "A strategic collaboration between SAIHTEC AB and Saidal Group to advance access to cell therapy across North Africa and the MENA region.",
+      "coverImage": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1200"
+    },
+    "gallery": [
+      {
+        "id": "g1",
+        "caption": "ISCT Annual Meeting 2024",
+        "category": "Conference",
+        "image": "https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=700"
+      },
+      {
+        "id": "g2",
+        "caption": "GMP facility, Stockholm",
+        "category": "Lab",
+        "image": "https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&w=700"
+      },
+      {
+        "id": "g3",
+        "caption": "Saidal partnership ceremony",
+        "category": "Partnership",
+        "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=700"
+      },
+      {
+        "id": "g4",
+        "caption": "Clinical site meeting",
+        "category": "Clinical",
+        "image": "https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&w=700"
+      },
+      {
+        "id": "g5",
+        "caption": "Cell quality release testing",
+        "category": "Lab",
+        "image": "https://images.pexels.com/photos/2280568/pexels-photo-2280568.jpeg?auto=compress&cs=tinysrgb&w=700"
+      },
+      {
+        "id": "g6",
+        "caption": "Scientific symposium",
+        "category": "Conference",
+        "image": "https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=700"
+      }
+    ]
+  },
+  "science_team": {
+    "tagline": "Scientific Leadership",
+    "title": "Research built by",
+    "titleAccent": "people who live it",
+    "subtitle": "Our science is led by Dr. Nadir Kadri \u2014 an immunologist, veterinary physician and stem cell researcher with over 20 years at the intersection of basic research and clinical medicine.",
+    "lead": {
+      "name": "Dr. Nadir Kadri, PhD, VMD",
+      "role": "Founder, CEO & Principal Investigator",
+      "quote": "I spent 20 years watching great science fail to reach patients. SAIHTEC exists to close that gap \u2014 with rigour, speed and no compromise on quality.",
+      "credentials": [
+        "PhD in Immunology, Nantes University, France (2006)",
+        "Assistant Professor (permanent), Karolinska Institutet, Stockholm",
+        "Elected member, ISCT MSC Committee 2025\u20132028",
+        "57 peer-reviewed publications \u2014 ORCID 0000-0003-2623-4094",
+        "Principal Investigator \u2014 GvHD, Multiple Sclerosis, Vocal Fold trials"
+      ]
+    },
+    "disciplines": [
+      {
+        "label": "MSC Biology",
+        "detail": "Isolation, expansion and functional characterisation of bone marrow-derived mesenchymal stromal cells"
+      },
+      {
+        "label": "GMP Manufacturing",
+        "detail": "Bioprocess engineering and scale-up from research to clinical-grade production"
+      },
+      {
+        "label": "Clinical Immunology",
+        "detail": "MSC immunomodulation \u2014 GvHD, autoimmunity, NK cell biology and complement interactions"
+      },
+      {
+        "label": "Regulatory Science",
+        "detail": "EU ATMP classification, EMA submissions and CMC documentation for Phase I/II programmes"
+      },
+      {
+        "label": "Clinical Research",
+        "detail": "Trial design, protocol development and PI responsibilities across investigator-initiated trials"
+      },
+      {
+        "label": "Translational Science",
+        "detail": "Bridging fundamental MSC biology and clinical application through collaborative research networks"
+      }
+    ]
+  },
+  "investors": {
+    "tagline": "Investor Relations",
+    "title": "A compelling investment in",
+    "titleAccent": "regenerative medicine",
+    "body": "SAIHTEC AB is positioned at the forefront of the cell therapy sector \u2014 combining 20 years of validated science, GMP manufacturing capability and an active clinical programme. We are open to discussions with investors who share our commitment to patient-centred innovation.",
+    "metrics": [
+      {
+        "number": "20+",
+        "label": "Years of Validated Science",
+        "desc": "Built on peer-reviewed research and clinical trials"
+      },
+      {
+        "number": "Phase II",
+        "label": "Lead Clinical Programme",
+        "desc": "MSC therapy for Graft-versus-Host Disease"
+      },
+      {
+        "number": "3",
+        "label": "Active Clinical Programmes",
+        "desc": "GvHD, Multiple Sclerosis, Vocal Fold"
+      },
+      {
+        "number": "GMP",
+        "label": "Manufacturing Ready",
+        "desc": "EU-certified production facility"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Validated Science",
+        "desc": "57 peer-reviewed publications and multiple completed investigator-initiated clinical trials provide a rigorous scientific foundation."
+      },
+      {
+        "title": "Clinical Experience",
+        "desc": "Direct experience as PI on Phase I and Phase II trials across GvHD, Multiple Sclerosis and vocal fold indications."
+      },
+      {
+        "title": "Regulatory Expertise",
+        "desc": "Deep familiarity with EU ATMP regulation, EMA submissions and CMC documentation from within the clinical trial process."
+      }
+    ]
+  },
+  "collaborations": {
+    "tagline": "Partnerships",
+    "subtitle": "We work with leading academic medical centres, clinical networks and industry partners to advance cell therapy globally.",
+    "partners": [
+      {
+        "name": "Karolinska Institutet",
+        "type": "Academic Institution",
+        "country": "Sweden",
+        "desc": "Home institution of the founding scientist. Centre of excellence in haematology, immunology and stem cell research."
+      },
+      {
+        "name": "Saidal Group",
+        "type": "Industry Partner",
+        "country": "Algeria",
+        "desc": "Strategic partnership to advance access to cell therapy products across North Africa and the MENA region."
+      }
+    ]
+  }
+}
