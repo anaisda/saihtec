@@ -241,9 +241,13 @@ function Hero({ s }: { s: any }) {
           {/* Content */}
           <div style={{ position: 'relative', padding: '1.8rem 2rem' }}>
             <div style={{ fontSize: '0.58rem', letterSpacing: '0.26em', textTransform: 'uppercase', color: 'rgba(254,204,2,0.7)', marginBottom: '0.8rem' }}>Stockholm, Sweden</div>
+            <p className="serif" style={{ fontSize: '1.2rem', fontStyle: 'italic', fontWeight: 300, color: 'rgba(245,240,232,0.92)', lineHeight: 1.4, marginBottom: '1.2rem' }}>
+              Swedish science.<br />Global impact.
+            </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
               {[
                 'GMP Certified · EU ATMP',
+                'ISCT Committee 2025–2028',
                 '57 peer-reviewed publications',
               ].map((line, i) => (
                 <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
@@ -422,7 +426,7 @@ function NewsSection({ news }: { news: any[] }) {
     'Award':          { bg: '#1A0800', color: '#E8A040' },
   }
 
-  if (!news || news.length === 0) return null
+
 
   const featured = news[0]
   const rest = news.slice(1, 4)
@@ -471,7 +475,7 @@ function NewsSection({ news }: { news: any[] }) {
 
           {/* Right column — stacked 3 items */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
-            {rest.map((article, i) => {
+            {rest.slice(0,3).map((article, i) => {
               const cat = CAT_STYLE[article.category] || CAT_STYLE['Company News']
               const imgSrc = article.coverImage || LAB_IMGS[(i + 1) % LAB_IMGS.length]
               return (
@@ -751,7 +755,7 @@ function Team({ team }: { team: any[] }) {
         {team[0] && (
           <div style={{ display: 'grid', gridTemplateColumns: '300px 1fr', background: 'var(--navy)', borderRadius: 20, overflow: 'hidden', marginBottom: '2rem' }}>
             <div style={{ position: 'relative', minHeight: 380 }}>
-              <img src="\nadir_kadri_pp.png" alt={team[0].name} style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'saturate(0.35) brightness(0.7)', display: 'block', position: 'absolute', inset: 0 }} />
+              <img src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=600" alt={team[0].name} style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'saturate(0.35) brightness(0.7)', display: 'block', position: 'absolute', inset: 0 }} />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, transparent 60%, var(--navy) 100%)' }} />
             </div>
             <div style={{ padding: '3.5rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '1.5rem' }}>
@@ -840,7 +844,7 @@ function Publications({ publications }: { publications: any[] }) {
 
 // ─── NEWS ────────────────────────────────────
 function News({ news }: { news: any[] }) {
-  if (!news || news.length === 0) return null
+
   const NEWS_IMGS = ['https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&w=700','https://images.pexels.com/photos/3786215/pexels-photo-3786215.jpeg?auto=compress&cs=tinysrgb&w=700','https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=700']
   const CAT: Record<string,{bg:string;color:string}> = {
     'Clinical Trial':{ bg:'var(--navy)', color:'var(--cream)' },
@@ -1033,6 +1037,7 @@ function Footer() {
       </div>
       <div style={{ borderTop: '1px solid rgba(214,228,232,0.06)', paddingTop: '2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <span style={{ color: 'rgba(214,228,232,0.18)', fontSize: '0.76rem' }}>© 2026 SAIHTEC AB. All rights reserved.</span>
+        <span style={{ color: 'rgba(214,228,232,0.12)', fontSize: '0.74rem' }}>Stockholm, Sweden · Developed by Baina Agency</span>
       </div>
     </footer>
   )
@@ -1097,7 +1102,7 @@ export default function Home({ content }: { content: Content }) {
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const content = readContent()
+  const content = await readContent()
   return {
     props: {
       content: {
