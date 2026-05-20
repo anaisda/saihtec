@@ -1102,23 +1102,38 @@ export default function Home({ content }: { content: Content }) {
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const content = readContent()
-  return {
-    props: {
-      content: {
-        settings: content.settings || {},
-        about: content.about || {},
-        technology: content.technology || [],
-        pipeline: content.pipeline || [],
-        team: content.team || [],
-        publications: content.publications || [],
-        news: content.news || [],
-        faq: content.faq || null,
-        media: content.media || null,
-        events: content.events || null,
-        science_team: content.science_team || null,
-        investors: content.investors || null,
-        collaborations: content.collaborations || null,
+  try {
+    const content = readContent()
+    return {
+      props: {
+        content: {
+          settings: content.settings || {},
+          about: content.about || {},
+          technology: content.technology || [],
+          pipeline: content.pipeline || [],
+          team: content.team || [],
+          publications: content.publications || [],
+          news: content.news || [],
+          faq: content.faq || null,
+          media: null,
+          events: null,
+          science_team: null,
+          investors: null,
+          collaborations: null,
+        }
+      }
+    }
+  } catch (error) {
+    console.error('getServerSideProps error:', error)
+    // Return minimal props so page still renders
+    return {
+      props: {
+        content: {
+          settings: { heroTagline: 'Stockholm, Sweden · GMP Certified', heroTitle: 'The future of cellular therapy starts here.', heroSubtitle: 'SAIHTEC AB develops and manufactures clinical-grade mesenchymal stromal cells.', heroVideoUrl: 'https://videos.pexels.com/video-files/8325997/8325997-hd_1920_1080_30fps.mp4', stats: [], seoTitle: 'SAIHTEC AB', seoDescription: 'SAIHTEC AB', contactEmail: 'nadir.kadri@ki.se' },
+          about: { tagline: 'Who we are', title: 'SAIHTEC AB', highlightQuote: '', body: '', certifications: [], vision: '', mission: '' },
+          technology: [], pipeline: [], team: [], publications: [], news: [], faq: null,
+          media: null, events: null, science_team: null, investors: null, collaborations: null,
+        }
       }
     }
   }
