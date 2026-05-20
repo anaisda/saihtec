@@ -755,7 +755,7 @@ function Team({ team }: { team: any[] }) {
         {team[0] && (
           <div style={{ display: 'grid', gridTemplateColumns: '300px 1fr', background: 'var(--navy)', borderRadius: 20, overflow: 'hidden', marginBottom: '2rem' }}>
             <div style={{ position: 'relative', minHeight: 380 }}>
-              <img src="/nadir_kadri_pp.png" alt={team[0].name} style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'saturate(0.35) brightness(0.7)', display: 'block', position: 'absolute', inset: 0 }} />
+              <img src="https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=600" alt={team[0].name} style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'saturate(0.35) brightness(0.7)', display: 'block', position: 'absolute', inset: 0 }} />
               <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to right, transparent 60%, var(--navy) 100%)' }} />
             </div>
             <div style={{ padding: '3.5rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '1.5rem' }}>
@@ -1102,7 +1102,7 @@ export default function Home({ content }: { content: Content }) {
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const content = await readContent()
+  const content = readContent()
   return {
     props: {
       content: {
