@@ -1,0 +1,191 @@
+{
+  "settings": {
+    "heroTagline": "Stockholm, Sweden · EU ATMP Expertise · ISCT Member",
+    "heroManifesto": "We discover. We translate. We advance cell therapies.",
+    "heroTitle": "The future of cellular therapy starts here.",
+    "heroSubtitle": "SAIHTEC AB is a Swedish biotechnology company dedicated to advancing mesenchymal stromal cell (MSC) therapies from scientific discovery to clinical application.",
+    "heroVideoUrl": "https://videos.pexels.com/video-files/8325997/8325997-hd_1920_1080_30fps.mp4",
+    "stats": [
+      { "number": "20", "suffix": "+", "label": "Years of MSC Research" },
+      { "number": "57", "suffix": "", "label": "Peer-Reviewed Publications" },
+      { "number": "2", "suffix": "", "label": "Completed Clinical Programmes" },
+      { "number": "EU", "suffix": "", "label": "ATMP Regulatory Expertise" }
+    ],
+    "seoTitle": "SAIHTEC AB — MSC Research & Translational Medicine · Stockholm, Sweden",
+    "seoDescription": "SAIHTEC AB is a Swedish biotechnology company translating mesenchymal stromal cell (MSC) therapies from scientific discovery to clinical application.",
+    "contactEmail": "nadir.kadri@ki.se"
+  },
+  "about": {
+    "tagline": "Who we are",
+    "title": "Science-led. Translation-driven. Built in <em>Sweden</em>.",
+    "highlightQuote": "We discover. We translate. We advance cell therapies.",
+    "body": "SAIHTEC AB is a Swedish biotechnology company dedicated to advancing mesenchymal stromal cell (MSC)-based therapies from scientific discovery to clinical application. Founded by researchers from Karolinska Institutet, Stockholm, the company combines deep expertise in stem cell biology, immunology, and translational medicine with access to clinical-grade manufacturing through trusted partners. SAIHTEC's mission is to develop next-generation MSC therapeutic products for the treatment of inflammatory, degenerative, and immune-mediated diseases.",
+    "vision": "To improve lives through safe and effective cell therapy.",
+    "mission": "To develop next-generation MSC therapeutic products for the treatment of inflammatory, degenerative, and immune-mediated diseases.",
+    "certifications": [
+      "Multiple Investigator-Initiated & Completed Clinical Trials",
+      "EU ATMP Regulatory Expertise",
+      "GMP Manufacturing Network — Sweden",
+      "ISCT MSC Committee Leadership 2025–2028"
+    ]
+  },
+  "technology": [
+    {
+      "id": "t1", "order": 1, "number": "01",
+      "title": "Fundamental Research",
+      "description": "Development and validation of advanced potency assays for mesenchymal stromal cells (MSCs).",
+      "bullets": [
+        "Development and validation of advanced potency assays for MSCs",
+        "Functional immunological assays — T cell suppression (MLR), monocyte polarization, neutrophil function, macrophage reprogramming, NK cell modulation",
+        "Mechanistic studies to define MSC mode of action and identify predictive biomarkers of potency"
+      ]
+    },
+    {
+      "id": "t2", "order": 2, "number": "02",
+      "title": "Preclinical Development",
+      "description": "In vitro and in vivo evaluation of MSC safety, efficacy, biodistribution and mechanism of action.",
+      "bullets": [
+        "In vitro and in vivo evaluation of MSC safety, efficacy, biodistribution, and mechanism of action",
+        "Disease models for inflammatory, autoimmune, degenerative, and age-related disorders",
+        "Translational biomarker discovery and development of potency assays supporting regulatory submissions"
+      ]
+    },
+    {
+      "id": "t3", "order": 3, "number": "03",
+      "title": "Clinical Research",
+      "description": "Design and execution of investigator-initiated and industry-sponsored clinical studies.",
+      "bullets": [
+        "Design and execution of investigator-initiated and industry-sponsored clinical studies",
+        "Development of clinical-grade MSC therapies manufactured under GMP conditions via partner facilities",
+        "Current clinical programmes: Knee Osteoarthritis (OA) and Healthy Aging & Frailty"
+      ]
+    }
+  ],
+  "pipeline": [
+    {
+      "id": "cl1", "order": 1,
+      "name": "MSC in Knee Osteoarthritis",
+      "slug": "msc-knee-osteoarthritis",
+      "subtitle": "Bone Marrow MSC",
+      "phase": "Phase I/IIa",
+      "phasePercent": 100,
+      "indication": "Knee Osteoarthritis (OA)",
+      "status": "Completed",
+      "summary": "A completed investigator-initiated Phase I/IIa clinical trial evaluating the safety and efficacy of intra-articular bone marrow-derived MSC administration in patients with knee osteoarthritis.",
+      "coverImage": "https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "videoUrl": "",
+      "blocks": [
+        { "id": "p1a", "type": "text", "content": "This investigator-initiated Phase I/IIa clinical trial evaluated the safety and preliminary efficacy of intra-articular administration of autologous bone marrow-derived mesenchymal stromal cells (MSCs) in patients with symptomatic knee osteoarthritis (OA).\n\nKnee osteoarthritis is among the most prevalent musculoskeletal conditions globally, representing a major cause of pain, disability, and reduced quality of life. Current treatment options are largely symptomatic, and there remains an unmet clinical need for disease-modifying therapies capable of addressing the underlying pathology." },
+        { "id": "p1b", "type": "image", "url": "https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg?auto=compress&cs=tinysrgb&w=900", "caption": "Clinical-grade MSC preparation for intra-articular administration" },
+        { "id": "p1c", "type": "text", "content": "The trial enrolled adult patients with radiographically confirmed knee OA and significant symptom burden. Participants received a single intra-articular injection of GMP-manufactured autologous MSCs, with safety and clinical outcomes assessed over a 12-month follow-up period.\n\nThe programme demonstrated an excellent safety profile with no serious adverse events attributable to the MSC product. Patient-reported outcomes, including pain scores and functional assessments, showed clinically meaningful improvements at 6 and 12 months post-treatment." },
+        { "id": "p1d", "type": "text", "content": "These results contribute to the growing body of evidence supporting the therapeutic potential of MSC-based interventions in degenerative joint disease, and provide a translational framework for further clinical development in this indication." }
+      ]
+    },
+    {
+      "id": "cl2", "order": 2,
+      "name": "MSC in Healthy Aging & Frailty",
+      "slug": "msc-healthy-aging-frailty",
+      "subtitle": "Bone Marrow MSC",
+      "phase": "Phase I/IIa",
+      "phasePercent": 100,
+      "indication": "Healthy Aging and Frailty",
+      "status": "Completed",
+      "summary": "A completed Phase I/IIa study exploring the safety and biological effects of systemic MSC administration in older adults with frailty, targeting the inflammatory and regenerative mechanisms of age-related decline.",
+      "coverImage": "https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      "videoUrl": "",
+      "blocks": [
+        { "id": "p2a", "type": "text", "content": "This Phase I/IIa study investigated the safety, tolerability, and early biological signals of systemic bone marrow-derived MSC administration in older adults presenting with features of frailty — a clinical syndrome characterised by reduced physiological reserve and increased vulnerability to adverse health outcomes.\n\nFrailty affects a substantial proportion of older adults and is strongly associated with disability, hospitalisation, and mortality. Its underlying biology involves chronic low-grade inflammation, impaired regenerative capacity, and dysfunction of multiple organ systems — pathways in which MSCs have demonstrated mechanistic potential in preclinical models." },
+        { "id": "p2b", "type": "image", "url": "https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&w=900", "caption": "Laboratory preparation of clinical-grade bone marrow MSCs" },
+        { "id": "p2c", "type": "text", "content": "Participants received intravenous infusion of allogeneic GMP-manufactured MSCs, with monitoring for safety and tolerability as primary endpoints. Exploratory secondary endpoints included measures of physical performance, inflammatory biomarkers, and patient-reported quality of life.\n\nThe programme was completed without serious adverse events. Exploratory analyses revealed biological signals consistent with modulation of systemic inflammatory markers in a subset of participants. These findings support the continued scientific rationale for MSC-based approaches in age-related conditions and inform the design of future adequately-powered efficacy studies." }
+      ]
+    }
+  ],
+  "team": [
+    { "id": "m1", "order": 1, "name": "Dr. Nadir Kadri", "initials": "NK", "title": "PhD, VMD — Founder & CEO", "bio": "Immunologist and stem cell researcher. Assistant Professor at Karolinska Institutet. Elected member of the ISCT MSC Committee (2025–2028). Principal Investigator on multiple investigator-initiated clinical trials. 57 peer-reviewed publications. ORCID: 0000-0003-2623-4094.", "linkedinUrl": "", "color": "#1C3D4A", "photoUrl": "/nadir_kadri_pp.png" }
+  ],
+  "publications": [
+    { "id": "pub2", "year": "2025", "title": "ISCT MSC committee statement on the US FDA approval of allogenic bone-marrow mesenchymal stromal cells", "authors": "Le Blanc K, Dazzi F, English K, Kadri N, Krampera M, et al.", "journal": "Cytotherapy, 2025", "url": "https://pubmed.ncbi.nlm.nih.gov/39864015", "urlType": "PubMed" },
+    { "id": "pub3", "year": "2023", "title": "Current perspectives on mesenchymal stromal cell therapy for graft versus host disease", "authors": "Kadri N, Amu S, Iacobaeus E, Boberg E, Le Blanc K.", "journal": "Cellular and Molecular Immunology, 2023", "url": "https://pubmed.ncbi.nlm.nih.gov/37165014", "urlType": "PubMed" },
+    { "id": "pub4", "year": "2020", "title": "Treatment of chronic GvHD with mesenchymal stromal cells induces durable responses: A phase II study", "authors": "Boberg E, von Bahr L, Afram G, Lindström C, Ljungman P, Kadri N, Le Blanc K.", "journal": "Stem Cells Translational Medicine. 2020;9(10):1190–1202", "url": "https://pubmed.ncbi.nlm.nih.gov/32573983", "urlType": "PubMed" },
+    { "id": "pub5", "year": "2019", "title": "Short and Long Term Clinical and Immunologic Follow up after Bone Marrow Mesenchymal Stromal Cell Therapy in Progressive Multiple Sclerosis — A Phase I Study", "authors": "Iacobaeus E, Kadri N, Lefsihane K, Boberg E, Gavin C, Törnqvist Andrén A, Lilja A, Brundin L, Blanc KL.", "journal": "Journal of Clinical Medicine. 2019;8(12):2102", "url": "https://pubmed.ncbi.nlm.nih.gov/31810187", "urlType": "PubMed" },
+    { "id": "pub6", "year": "Submitted", "title": "Safety, patient-reported outcomes and voice function after local administration of mesenchymal stromal cells and voice training in patients with vocal fold scarring and dysphonia", "authors": "Bergström Börlin E, Nygren U, Södersten M, Granqvist S, Kadri N, Le Blanc K, Hertegård S.", "journal": "Manuscript submitted — not yet published", "url": "#", "urlType": "Submitted" }
+  ],
+  "news": [
+    {
+      "id": "n1",
+      "title": "SAIHTEC AB announces strategic partnership with Saidal Group",
+      "slug": "saihtec-saidal-partnership",
+      "date": "2024-11-15",
+      "category": "Partnership",
+      "excerpt": "SAIHTEC AB has entered into a strategic collaboration with Saidal Group, Algeria's leading pharmaceutical company, to advance access to cell therapy across North Africa and the MENA region.",
+      "coverImage": "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "videoUrl": "",
+      "body": "",
+      "blocks": [
+        { "id": "b1a", "type": "text", "content": "SAIHTEC AB is pleased to announce a strategic collaboration with Saidal Group, the leading pharmaceutical company in Algeria and one of North Africa's most established life sciences organisations.\n\nThis partnership marks a significant step in SAIHTEC's mission to advance access to advanced cell therapies beyond the Nordic region, bringing MSC-based therapeutic programmes to patients across North Africa and the MENA region." },
+        { "id": "b1b", "type": "text", "content": "Under the terms of the collaboration, the two companies will work jointly to develop translational frameworks that align with both EU ATMP regulatory standards and local regulatory requirements, enabling a pathway for clinical programmes to be advanced in a sustainable and patient-centred manner.\n\nDr. Nadir Kadri, Founder and CEO of SAIHTEC AB, commented: \"This partnership represents an important bridge between Nordic science and the clinical needs of patients in the MENA region. We are committed to ensuring that the advances we make in Stockholm can ultimately reach patients wherever they are.\"" }
+      ]
+    },
+    {
+      "id": "n2",
+      "title": "Manuscript submitted on MSC therapy for vocal fold scarring",
+      "slug": "vocal-fold-manuscript-submitted",
+      "date": "2026-04-19",
+      "category": "Publication",
+      "excerpt": "A manuscript reporting safety and patient-reported outcomes from a study evaluating local MSC administration in patients with vocal fold scarring and dysphonia has been submitted for peer review.",
+      "coverImage": "https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "videoUrl": "",
+      "body": "",
+      "blocks": [
+        { "id": "b2a", "type": "text", "content": "A manuscript reporting the outcomes of an open Phase I/IIa study has been submitted for peer review. The study evaluated the safety, patient-reported outcomes, and voice function following local administration of mesenchymal stromal cells (MSCs) combined with voice training in patients with vocal fold scarring and dysphonia.\n\nThe study, led by investigators at Karolinska Institutet and Karolinska University Hospital, represents the first clinical exploration of MSC therapy for this indication — a condition with very limited treatment options and significant impact on quality of life." },
+        { "id": "b2b", "type": "text", "content": "The manuscript has been submitted to a peer-reviewed journal and is currently under review. Full details of the results will be made available upon publication.\n\nThis work forms part of SAIHTEC's broader programme in translational MSC research, spanning from fundamental immunological studies through to investigator-initiated clinical trials across multiple therapeutic areas." }
+      ]
+    },
+    {
+      "id": "n3",
+      "title": "Dr. Nadir Kadri elected to ISCT MSC Committee 2025–2028",
+      "slug": "isct-committee-election-2025",
+      "date": "2025-01-10",
+      "category": "Company News",
+      "excerpt": "SAIHTEC founder Dr. Nadir Kadri has been elected as one of 14 global experts to serve on the ISCT MSC Committee for the 2025–2028 term.",
+      "coverImage": "https://images.pexels.com/photos/3786215/pexels-photo-3786215.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "videoUrl": "",
+      "body": "",
+      "blocks": [
+        { "id": "b3a", "type": "text", "content": "SAIHTEC AB is proud to announce that Dr. Nadir Kadri, Founder and CEO, has been elected as a member of the International Society for Cell & Gene Therapy (ISCT) Mesenchymal Stromal Cell (MSC) Committee for the 2025–2028 term.\n\nDr. Kadri is one of 14 global experts selected to serve on this prestigious committee, which plays a central role in shaping the scientific and regulatory landscape for MSC-based therapies worldwide." },
+        { "id": "b3b", "type": "text", "content": "The ISCT MSC Committee develops consensus statements, guidelines, and position papers that inform clinical practice, regulatory submissions, and translational research across the field. Dr. Kadri's election reflects his standing as a leading researcher in MSC biology, potency assays, and clinical translation.\n\n\"It is an honour to contribute to the ISCT's work at such a critical moment for the field,\" said Dr. Kadri. \"MSC therapies are at an inflection point — with the first regulatory approvals now in place, the committee's work in defining standards and advancing the science has never been more important.\"" }
+      ]
+    },
+    {
+      "id": "n4",
+      "title": "ISCT MSC Committee statement on FDA approval of allogenic bone-marrow MSCs",
+      "slug": "isct-fda-approval-statement-2025",
+      "date": "2025-03-05",
+      "category": "Publication",
+      "excerpt": "Co-authored statement published in Cytotherapy addressing the US FDA approval of allogenic bone-marrow mesenchymal stromal cells.",
+      "coverImage": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "videoUrl": "",
+      "body": "",
+      "blocks": [
+        { "id": "b4a", "type": "text", "content": "The ISCT MSC Committee, of which Dr. Nadir Kadri is a member, has published a consensus statement in Cytotherapy addressing the landmark US FDA approval of allogenic bone-marrow mesenchymal stromal cells.\n\nThe statement, co-authored by leading international experts including Prof. Katarina Le Blanc, Prof. Francesco Dazzi, Prof. Karen English, and others, provides the Committee's scientific perspective on the approval, its implications for the field, and the path forward for further development and regulatory harmonisation." },
+        { "id": "b4b", "type": "text", "content": "The FDA approval of Ryoncil (remestemcel-L) for steroid-refractory acute graft-versus-host disease in paediatric patients represents a historic milestone for the MSC field — the first allogeneic MSC product to receive regulatory approval from a major medicines agency.\n\nThe full statement is available open-access in Cytotherapy (2025). PubMed: 39864015." }
+      ]
+    }
+  ],
+  "faq": {
+    "tagline": "Frequently Asked",
+    "items": [
+      { "id": "f1", "q": "What does SAIHTEC AB do?", "a": "SAIHTEC AB is a Swedish biotechnology company that develops and manufactures clinical-grade mesenchymal stromal cells (MSCs) for use in clinical research and therapeutic programmes." },
+      { "id": "f0", "q": "Does SAIHTEC manufacture mesenchymal stromal cells (MSCs)?", "a": "No. SAIHTEC is not a GMP manufacturing facility and does not manufacture or supply MSC products. Instead, we specialize in the research and development required to translate cell therapies from the laboratory to the clinic. Our expertise includes potency assay development, functional immunology, process development, analytical characterization, formulation optimization, and translational studies supporting Advanced Therapy Medicinal Products (ATMPs). We work with academic institutions, hospitals, biotechnology companies, and GMP manufacturing partners to optimize cell therapy products and generate the scientific, analytical, and preclinical evidence required for successful clinical translation and regulatory development." },
+      { "id": "f4b", "q": "Does SAIHTEC work under GMP standards?", "a": "While SAIHTEC does not operate its own GMP manufacturing facility, we work closely with GMP-certified manufacturing partners across Sweden and ensure that all analytical and translational work supports the EU ATMP regulatory standards required for clinical use." },
+      { "id": "f2", "q": "How can I collaborate with SAIHTEC?", "a": "We welcome partnerships with academic institutions, clinical investigators, hospitals, biotechnology companies, and GMP manufacturing partners. Please reach out via our contact form." },
+      { "id": "f3", "q": "What clinical areas are you working in?", "a": "Our current clinical programmes focus on Knee Osteoarthritis (OA) and Healthy Aging & Frailty, both completed at Phase I/IIa. We are open to exploring new therapeutic areas where MSC biology offers clinical potential." },
+      { "id": "f5", "q": "How can I contact SAIHTEC regarding investment opportunities?", "a": "Please use the contact form on this website and select 'Investor Relations' as the inquiry type. We will respond within two business days." }
+    ]
+  },
+  "science_team": null,
+  "investors": null,
+  "collaborations": null,
+  "media": null,
+  "events": null
+}
